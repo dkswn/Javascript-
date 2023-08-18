@@ -1,0 +1,11 @@
+function solution(input) {
+  var answer = [];
+  for (i = 1; i <= input; i++) {
+    if (input % i === 0) {
+      answer.push(i);
+    }
+  }
+  return answer;
+}
+
+// 어떤 한 수를 입력 받았을 때 해당 수의 약수들을 출력하는 코드문제
